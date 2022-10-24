@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h4 {
+  text-align: center;
+}
+.navbar {
+  padding-left: 0;
+}
+
+.nav-item {
+  padding-right: 15px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-family: 'Sacramento', cursive;
+}
+
+.welcome-images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.welcome-img {
+  width: 17%;
+}
+
+.welcome-img-big {
+  width: 31%;
+}
+
+.pixel-art {
+  width: 30%;
+  margin-left: 10%
+}
+
+.resume-div-1{
+  background-color: #FFECC7;
+  padding-top: 5%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.resume-exp-div{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  padding-bottom: 5%;
+  color: #006E7F;
+  font-size: 1rem;
+  width: 50%;
+}
+
+.container-fluid.my-skills-div.resume-exp-div p {
+  margin-bottom: 3rem;
+}
+.resume-hello {
+  width: 20%;
+}
+
+.resume-p{
+  padding-left: 1%;
+}
+.resume-spans {
+  color: #D9534F;
+  font-weight: bold;
+}
+
+.my-skills-div-1 {
+  padding-bottom: 5%;
+}
+
+.my-skills-div-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5%
+}
+
+.my-skills-div-3 {
+    background-color: #FFECC7;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my-skills-heading {
+  color: #FFECC7;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5rem;
+}
+
+.skill-images {
+  width: 60%;
+  border: 20px solid #FFECC7;
+  background-color: #FFECC7;
+  border-radius: 18% 9%;
+
+}
+
+.boran{
+  background-color: #FFECC7;
+  margin: 0;
+  padding: 4% 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background-color: #D9534F;
+  border: none
+}
+
+.card-text {
+  color: #FFECC7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.machine-pixel-art {
+  width: 20%;
+}
+
+.skills-exp-heading {
+  color: #D9534F;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5rem;
+  padding-bottom: 3%;
+  padding-top: 7%;
+}
+
+.skills-exp-div {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  padding-left: 4%;
+  color: #006E7F;
+  font-size: 1rem;
+  width: 50%;
+}
+
+.click-here {
+  color: #D9534F;
+  text-decoration: underline;
+}
+
+.click-here:hover {
+  color: #77BFA7;
+}
+
+.projects-div-1{
+  text-align: left;
+  padding-top: 4%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.list-group-item {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 3% 0;
+  color: #FFECC7;
+  background-color: #77BFA7;
+  border: 5px solid #FFECC7;
+  border-radius: 5px;
+}
+
+.list-group-item:hover {
+  background-color: #77BFA7;
+  border: 5px solid #FFECC7;
+  color: #006E7F;
+}
+
+.list-group-item.active {
+  background-color: #006E7F;
+  border: 5px solid #006E7F;
+  color: #FFECC7;
+}
+
+.tab-content {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 80%;
+  color: #006E7F;
+  background-color: #FFECC7;
+  border: 30px solid #FFECC7;
+  border-radius: 50px 15px;
+}
+
+.projects-exp {
+  width: 40%
+}
+
+.contact-me-heading {
+  color: #D9534F;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5rem;
+  padding-top: 2%
+}
+
+.social-icons-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-icons{
+  width: 30%
+}
+
+.font-awesome-end-icons {
+  padding: 2% 0 2% 3%;
+  text-align: center;
+  color: #006E7F;
+}
+
+.copyright {
+  margin-bottom: 0;
+  color: #006E7F;
+}
+
+#welcome {
+  background-color: #77BFA7;
+  padding: 4% 7%;
+  }
+
+#my-skills {
+  padding: 4% 7%;
+  background-color: #D9534F;
+  margin: 0;
+}
+
+#resume {
+  background-color: #FFECC7;
+  padding-bottom: 4%
+}
+
+#projects {
+  background-color: #77BFA7;
+  padding: 4% 7%;
+}
+
+#contact-me {
+  background-color: #FFECC7;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+@media (max-width: 1000px) {
+
+  .resume-hello {
+    font-size: 2.2rem;
+  }
+
+  .resume-exp-div{
+    font-size: 0.8rem;
+  }
+
+  .my-skills-heading {
+    font-size: 2.2rem;
+  }
+
+  #my-skills {
+    padding: 4% 3% 7%;
+    font-size: 0.7rem;
+  }
+
+  .skills-exp-heading {
+    font-size: 2.2rem;
+  }
+
+  .contact-me-heading {
+    font-size: 2.2rem;
+  }
+
+  .skills-exp-div {
+    font-size: 0.8rem;
+  }
+
+  .list-group-item {
+    font-size: 0.8rem;
+    margin-top: 10%;
+  }
+
+  .tab-content {
+    font-size: 0.8rem;
+    margin-top: %3;
+  }
+
+  #projects {
+    padding: 4% 2%;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+  .font-awesome-end-icons{
+    font-size: 0.8rem;
+  }
+}
