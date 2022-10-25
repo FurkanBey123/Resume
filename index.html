@@ -47,33 +47,37 @@
             <li class="nav-item">
               <a class="nav-link" href="#projects"><i class="fa-solid fa-file-code"></i> Projects</a>
             </li>
-            <li style="padding-right:0;" class="nav-item">
+            <li class="nav-item-last">
               <a class="nav-link" href="#contact-me"><i class="fa-solid fa-address-book"></i> Contact</a>
             </li>
           </ul>
         </div>
       </nav>
-
-      <!-- welcome images-->
-      <div class="welcome-images">
-        <img class="welcome-img" src="images/wawe.png" alt="">
-        <img class="welcome-img" src="images/wawe.png" alt="">
-        <img class="welcome-img-big" src="images/Imfurkan.png" alt="">
-        <img class="welcome-img" src="images/wawe.png" alt="">
-        <img class="welcome-img" src="images/wawe.png" alt="">
-      </div>
     </div>
   </section>
+  <!-- welcome images-->
+  <section class="container-fluid welcome-images-section">
+    <div class="welcome-images-wrap">
+      <img class="welcome-img" src="images/wawe.png" alt="">
+      <img class="welcome-img" src="images/wawe.png" alt="">
+      <img class="welcome-img-big" src="images/Imfurkan.png" alt="">
+      <img class="welcome-img" src="images/wawe.png" alt="">
+      <img class="welcome-img" src="images/wawe.png" alt="">
+    </div>
+  </section>
+
 
   <!-- resume section-->
   <section id="resume">
     <div class="container-fluid">
-      <div class="resume-div-1">
-        <img class="pixel-art" src="images/pixel-art-me-gif.gif" alt="hello-world-pixel-art">
-        <div class="resume-exp-div">
-          <img class="resume-hello" src="images/hello.png" alt="">
+      <div class="row align-items-center justify-content-center resume-wraper">
+        <div class="col-lg-3 col-md-5 col-sm-5 pixel-art-wraper align-self-center">
+          <img class="pixel-art-me" src="images/pixel-art-me-gif.gif" alt="hello-world-pixel-art">
+        </div>
+        <div class="col-lg-6 offset-lg-1 col-md-7 col-sm-12">
+          <img class="resume-hello-img" src="images/hello.png" alt="">
           <p class="resume-p">
-            I am <span class="resume-spans">Furkan</span> and I am 22 years old guy from <span class="resume-spans">Istanbul--Turkey</span>.
+            I am <span class="resume-spans">Furkan</span> and I am 22 years old guy from <span class="resume-spans">Istanbul-Turkey</span>.
             My coding interest started when I was studying in high school.
             However, I could not find time to spend hours on programming at the time.
             I have started my university education at <span class="resume-spans">Riga Technical University</span> in computer science.
@@ -89,61 +93,82 @@
 
   <!-- my skills section-->
   <section id="my-skills">
-    <div class="my-skills-div-1">
-      <h2 class="my-skills-heading">My Skills</h2>
-
+    <h2 class="my-skills-heading">My Skills</h2>
+    <div class="container-fluid">
       <!-- first row for cards-->
-      <div class="container-fluid my-skills-div-2">
-        <div class="card" style="width: 18rem;">
-          <img class="skill-images mx-auto" src="images/html.png" alt="html-logo-pixel-art">
-          <div class="card-body">
-            <p class="card-text">HTML5 <i class="fa-brands fa-html5"></i></p>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <div class="card">
+            <img class="skill-images" src="images/html.png" alt="html-logo-pixel-art">
+            <div class="card-body">
+              <p class="card-text">HTML5 <i class="fa-brands fa-html5"></i></p>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img class="skill-images mx-auto" src="images/css.png" alt="html-logo-pixel-art">
-          <div class="card-body">
-            <p class="card-text">CSS3 <i class="fa-brands fa-html5"></i></p>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <div class="card">
+            <img class="skill-images" src="images/css.png" alt="html-logo-pixel-art">
+            <div class="card-body">
+              <p class="card-text">CSS3 <i class="fa-brands fa-html5"></i></p>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img class="skill-images mx-auto" src="images/javascript.png" alt="html-logo-pixel-art">
-          <div class="card-body">
-            <p class="card-text">JAVASCRIPT <i class="fa-brands fa-square-js"></i></p>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <div class="card">
+            <img class="skill-images" src="images/javascript.png" alt="html-logo-pixel-art">
+            <div class="card-body">
+              <p class="card-text">JAVASCRIPT <i class="fa-brands fa-square-js"></i></p>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img class="skill-images mx-auto" src="images/angular.png" alt="html-logo-pixel-art">
-          <div class="card-body">
-            <p class="card-text">ANGULAR JS <i class="fa-brands fa-angular"></i></p>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <div class="card">
+            <img class="skill-images" src="images/angular.png" alt="html-logo-pixel-art">
+            <div class="card-body">
+              <p class="card-text">ANGULAR JS <i class="fa-brands fa-angular"></i></p>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- second row for cards-->
-      <div class="container-fluid my-skills-div-2">
-        <div class="card" style="width: 18rem;">
-          <img class="skill-images mx-auto" src="images/node-js.png" alt="html-logo-pixel-art">
-          <div class="card-body">
-            <p class="card-text">NODE JS <i class="fa-brands fa-node-js"></i></p>
+      <div class="row align-items-center justify-content-center second-skill-row">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <div class="card">
+            <img class="skill-images" src="images/node-js.png" alt="html-logo-pixel-art">
+            <div class="card-body">
+              <p class="card-text">NODE JS <i class="fa-brands fa-node-js"></i></p>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img class="skill-images mx-auto" src="images/reactjs.png" alt="html-logo-pixel-art">
-          <div class="card-body">
-            <p class="card-text">REACT JS <i class="fa-brands fa-react"></i></p>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <div class="card">
+            <img class="skill-images" src="images/reactjs.png" alt="html-logo-pixel-art">
+            <div class="card-body">
+              <p class="card-text">REACT JS <i class="fa-brands fa-react"></i></p>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img class="skill-images mx-auto" src="images/jquery.png" alt="html-logo-pixel-art">
-          <div class="card-body">
-            <p class="card-text">JQUERY <i class="fa-solid fa-file-code"></i></p>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <div class="card">
+            <img class="skill-images" src="images/jquery.png" alt="html-logo-pixel-art">
+            <div class="card-body">
+              <p class="card-text">JQUERY <i class="fa-solid fa-file-code"></i></p>
+            </div>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img class="skill-images mx-auto" src="images/python.png" alt="html-logo-pixel-art">
-          <div class="card-body">
-            <p class="card-text">PYTHON <i class="fa-brands fa-python"></i></p>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+          <div class="card">
+            <img class="skill-images" src="images/python.png" alt="html-logo-pixel-art">
+            <div class="card-body">
+              <p class="card-text">PYTHON <i class="fa-brands fa-python"></i></p>
+            </div>
           </div>
         </div>
       </div>
@@ -151,8 +176,8 @@
 
     <!-- third row for explanations-->
     <div class="container-fluid">
-      <div class="my-skills-div-3">
-        <div class="skills-exp-div">
+      <div class="row align-items-center justify-content-around skill-explanation-wraper">
+        <div class="skills-exp-div col-lg-6 col-md-7 col-sm-12">
           <h2 class="skills-exp-heading">Experience</h2>
           <p>In the early stages of my 3-year advanced coding experience, I have created a lot of automation bots in Python.
             After a while, my interest in data analysis grew. Because I had difficulty finding a job,
@@ -160,16 +185,21 @@
             I'm mostly concentrating on HTML CSS Javascript and Javascript's big frameworks. <a class="click-here" href="#projects">Click here</a> to see my previous projects.
           </p>
         </div>
-        <img class="machine-pixel-art" src="images/machine-gif.gif" alt="">
+
+        <div class="col-lg-3 col-md-5">
+          <img class="machine-pixel-art" src="images/machine-gif.gif" alt="">
+        </div>
+
       </div>
     </div>
   </section>
 
   <section id="projects">
     <h2 class="my-skills-heading">Projects</h2>
-    <div class="projects-div-1">
-      <div class="row justify-content-center">
-        <div class="col-4">
+    <div class="container-fluid">
+
+      <div class="row align-items-center justify-content-around">
+        <div class="col-lg-4 col-sm-12">
           <div class="list-group" id="list-tab" role="tablist">
             <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">NFT Auction Tracer Bot</a>
             <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Pokemon Battle Simulation</a>
@@ -177,7 +207,7 @@
             <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">My Resume Website</a>
           </div>
         </div>
-        <div class="col-8">
+        <div class="col-lg-8 col-sm-12">
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
               <h4><i class="fa-brands fa-python"></i>----<i class="fa-brands fa-chrome"></i>----<i class="fa-brands fa-telegram"></i></h4>
@@ -185,7 +215,8 @@
               Our bot is checking the market in every second and when it determines under priced listed NFT,
               it alerts the customer by messaging them on the telegram channel. For building the project,
               I mostly used request and data analysis libraries in Python. If you would like to hire me for similar project,
-              please <a href="#contact-me" class="click-here">contact me here.</a></div>
+              please <a href="#contact-me" class="click-here">contact me here.</a>
+            </div>
             <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
               <h4><i class="fa-brands fa-python"></i>----<i class="fa-solid fa-database"></i>----<i class="fa-solid fa-file-excel"></i></h4>
               I have created this project when I applied for data analylist role in a company.
@@ -193,18 +224,21 @@
               for getting all existed pokemon's attribute data. Then I needed to create a smulation to fight each pokemon with others.
               Each battle was adding +1 won to pokemon's win attribute. After I got the results for all of the pokemons,
               I served the battle results in google sheets by using google's API.
-              If you would like to check the source code please <a class="click-here" href="https://github.com/FurkanBey123/EMPIRE-AUCTION-TRACER">click here</a> to have a look. </div>
+              If you would like to check the source code please <a class="click-here" href="https://github.com/FurkanBey123/EMPIRE-AUCTION-TRACER">click here</a> to have a look.
+            </div>
             <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
               <h4><i class="fa-brands fa-python"></i>----<i class="fa-brands fa-discord"></i>----<i class="fa-brands fa-google"></i></h4>
               In truth, the reason I created this project, it was always painfull to alt-tab to play music in dicord bot when I am playing a game with friend in the dicord.
               So, I have decided to create a bot that work with speech commands to do certain functions. For instance, when you tell bot to play <span class="resume-spans">"Blinding Lights by The Weeknd"</span>
               it will automatically play the requested song. Moreover, it has a lot of functionality in texting. For example, when you write <span class="resume-spans">#Bitcoin</span> in the discord channel,
-              it will reply your message by current Bitcoin price. If you would like to check the source code please <a class="click-here" href="https://github.com/FurkanBey123/Discord-Voice-Recognition-Bot">click here</a> to have a look. </div>
+              it will reply your message by current Bitcoin price. If you would like to check the source code please <a class="click-here" href="https://github.com/FurkanBey123/Discord-Voice-Recognition-Bot">click here</a> to have a look.
+            </div>
             <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
               <h4><i class="fa-brands fa-html5"></i>---<i class="fa-brands fa-css3-alt"></i>---<i class="fa-brands fa-bootstrap"></i>---<i class="fa-brands fa-square-js"></i></h4>
               You are currently looking at <span class="resume-spans">My Resume Website</span> project. I will be updating it all the time.
               For now, I am only using <span class="resume-spans">HTML-CSS-BOOSTRAP-JS on it.</span> I am planning to integrate new features in near future. Until the next time,
-              I would like to say you <span class="resume-spans">Goodbye!</span></div>
+              I would like to say you <span class="resume-spans">Goodbye!</span>
+            </div>
           </div>
         </div>
       </div>
@@ -214,16 +248,16 @@
   <section id="contact-me">
     <div class="container-fluid">
       <h2 class="contact-me-heading">Contact Me</h2>
-      <div class="container-fluid social-icons-div">
-        <a href="#"><img class="social-icons" src="images/instagram-pixel-art.png" alt="instagram-pixel-art-img"></a>
-        <a href="#"><img class="social-icons" style="width:31%;" src="images/twitter-pixel-art.png" alt="twitter-pixel-art-img"></a>
-        <a href="#"><img class="social-icons" src="images/facebook-pixel-art.png" alt="facebook-pixel-art-img"></a>
-        <a href="#"><img class="social-icons" src="images/youtube-pixel-art.png" alt="youtube-pixel-art-img"></a>
+      <div class="social-icons-div">
+        <a href="https://www.instagram.com/boranfurkann/"><img class="social-icons" src="images/instagram-pixel-art.png" alt="instagram-pixel-art-img"></a>
+        <a href="https://twitter.com/BoranFurkan"><img class="social-icons" style="width:31%;" src="images/twitter-pixel-art.png" alt="twitter-pixel-art-img"></a>
+        <a href="https://www.instagram.com/boranfurkann/"><img class="social-icons" src="images/facebook-pixel-art.png" alt="facebook-pixel-art-img"></a>
+        <a href="https://www.instagram.com/boranfurkann/"><img class="social-icons" src="images/youtube-pixel-art.png" alt="youtube-pixel-art-img"></a>
       </div>
       <a href="https://www.linkedin.com/in/furkan-boran-329719210/"><i style="padding-left:0;" class="fa-brands fa-linkedin font-awesome-end-icons"></i></a>
       <a href="https://github.com/FurkanBey123"><i class="fa-brands fa-github font-awesome-end-icons"></i></a>
       <a href="https://discordapp.com/users/402110472649965568"><i class="fa-brands fa-discord font-awesome-end-icons"></i></a>
-      <a href="furkanboran123@hotmail.com"><i class="fas fa-envelope font-awesome-end-icons"></i></a>
+      <a href="emailto:furkanboran123@hotmail.com"><i class="fas fa-envelope font-awesome-end-icons"></i></a>
       <p class="copyright">© Copyright 2022 FURKAN BORAN</p>
     </div>
   </section>
